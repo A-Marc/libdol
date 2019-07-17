@@ -2,7 +2,7 @@
 title: Libdol
 description: La révolution Libra est en cours.
 cover: assets/images/fond2.png
-logo: assets/images/mascotte-blanc.png
+logo: assets/images/banner-blanc.png
 favicon: assets/images/mascotte-libra.png
 baseurl: "/blog/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://libdol.com" # the base hostname & protocol for your site
