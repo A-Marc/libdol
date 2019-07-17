@@ -3,9 +3,9 @@ title: Libdol
 description: La révolution Libra est en cours.
 cover: assets/images/fond2.png
 logo: assets/images/banner-blanc.png
-favicon: assets/images/mascotte-libra.png
+favicon: assets/images/favicon.png
 baseurl: "/blog/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://libdol.com" # the base hostname & protocol for your site
+url: "https://polar-caverns-52525.herokuapp.com/" # the base hostname & protocol for your site
 
 pagination:
 
@@ -47,12 +47,12 @@ plugins:
 # Settings for rake task
 safe: False
 lsi: False
-username: samanyougarg #github username
-repo: hanuman #github repository
+username: A-Marc #github username
+repo: libdol #github repository
 branch: master #branch
 relative_source: ../hanuman/ #source directory
 destination: ../hanuman-pages/ #destination directory
-production_url:  https://samanyougarg.com/
+production_url:  https://polar-caverns-52525.herokuapp.com/
 source_url:  https://github.com/samanyougarg/hanuman #source repository url
 
 exclude:
