@@ -21,6 +21,10 @@ def check_destination
   end
 end
 
+task "assets:precompile" do
+  exec("jekyll build")
+end
+
 namespace :site do
   desc "Generate the site"
   task :build do
