@@ -2,7 +2,7 @@
 @import 'syntax-highlighting';
 
 $grey-color:       #828282;
-$theme-color: #ff6f00;
+$theme-color: #39298C;
 
 .icon {
 
@@ -96,7 +96,7 @@ body {
   @include box-sizing(border-box);
 
   .blog-title {
-    margin-bottom: 8px;
+    margin-bottom: 0px;
     font-size: 50px;
     font-weight: 700;
     letter-spacing: -2px;
@@ -104,6 +104,7 @@ body {
     line-height: 50px;
     word-break: break-word;
     color: #333333;
+    background-image:url(../assets/images/logo.png);
   }
   .blog-description {
     font-size: 28px;
