@@ -247,6 +247,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler
   github-pages (~> 198)
   jekyll (~> 3.8.5)
   jekyll-compose
