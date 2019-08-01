@@ -2,7 +2,7 @@
 title: Libdol
 description: Libra is the new oil.
 cover: https://image.noelshack.com/fichiers/2019/31/4/1564663957-fond2.png
-logo: https://image.noelshack.com/fichiers/2019/31/4/1564664176-banner-blanc.png
+logo: 
 favicon: https://image.noelshack.com/fichiers/2019/31/4/1564664214-favicon.png
 baseurl: # the subpath of your site, e.g. /blog/ or / for root
 url: "https://polar-caverns-52525.herokuapp.com/" # the base hostname & protocol for your site
