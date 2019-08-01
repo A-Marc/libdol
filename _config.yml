@@ -1,7 +1,7 @@
 # Site settings
 title: Libdol
 description: La révolution Libra est en cours.
-cover: /assets/images/fond2.png
+cover: https://image.noelshack.com/fichiers/2019/31/4/1564663957-fond2.png
 logo: /assets/images/banner-blanc.png
 favicon: /assets/images/favicon.png
 baseurl: "/blog/" # the subpath of your site, e.g. /blog/ or / for root
