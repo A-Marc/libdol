@@ -1,8 +1,8 @@
 # Site settin
 title: Libdol | Libra | FR
-description: La première newsletter francophone sur le Libra
+description: La newsletter francophone du Libra, 1 fois/semaine
 cover: https://image.noelshack.com/fichiers/2019/32/2/1565107129-fond3.png
-logo: 
+logo:
 favicon: https://image.noelshack.com/fichiers/2019/31/4/1564664214-favicon.png
 baseurl: # the subpath of your site, e.g. /blog/ or / for root
 url: "https://polar-caverns-52525.herokuapp.com/" # the base hostname & protocol for your site
