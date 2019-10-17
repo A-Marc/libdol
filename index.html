@@ -12,7 +12,7 @@ pagination:
       <header class="p3">
         <h1 class="ampstart-fullpage-hero-heading mb0 hanuman">
           <span class="ampstart-fullpage-hero-heading-text title">
-            <img src="assets/images/logo2.png" />
+            <img src="assets/images/logo2.png" style="max-width: 100%; height: auto" />
           </span>
         </h1>
         <h2 class="ampstart-fullpage-hero-heading mb0">
@@ -23,7 +23,6 @@ pagination:
     </header>
     {% if site.cover %}
     <footer class="absolute left-0 right-0 bottom-0">
-      <a class="ampstart-readmore py3 caps line-height-2 text-decoration-none center block h5" href="#content"><span class="ampstart-readmore-text px1">En savoir plus</span></a>
     </footer>
     {% else %}
     <footer class="absolute left-0 right-0 bottom-0">
@@ -70,23 +69,6 @@ pagination:
     {% endfor %}
   </div>
 
-  <nav class="pagination" role="navigation">
-    {% if paginator.next_page %}
-      <a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.next_page}}">&larr; Older posts</a>
-    {% else %}
-      <a class="newer-posts disabled">&larr; Older posts</a>
-    {% endif %}
-    <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.previous_page %}
-      {% if paginator.page == 2 %}
-        <a class="older-posts" href="{{ site.baseurl }}/">Newer posts &rarr;</a>
-      {% else %}
-        <a class="older-posts" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer posts &rarr;</a>
-      {% endif %}
-    {% else %}
-      <a class="older-posts disabled">Newer posts &rarr;</a>
-    {% endif %}
-  </nav>
 
 </main>
 
