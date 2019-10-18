@@ -4,7 +4,7 @@ description: La newsletter francophone du Libra, 1 fois/semaine
 cover: https://image.noelshack.com/fichiers/2019/32/2/1565107129-fond3.png
 logo:
 favicon: assets/images/favicon.png
-baseurl: / #the subpath of your site, e.g. /blog/ or / for root
+baseurl: #the subpath of your site, e.g. /blog/ or / for root
 url: "https://libdol.com" # the base hostname & protocol for your site
 
 pagination:
@@ -49,10 +49,10 @@ lsi: False
 username: A-Marc #github username
 repo: libdol #github repository
 branch: master #branch
-relative_source: ../hanuman/ #source directory
+relative_source: ../libdol/ #source directory
 destination: ../hanuman-pages/ #destination directory
-production_url:
-source_url:  https://github.com/samanyougarg/hanuman #source repository url
+production_url: https://libdol.com
+source_url:  https://github.com/a-marc/libdol #source repository url
 
 exclude:
   - README.md
