@@ -3,9 +3,9 @@ title: Libdol | Libra | FR
 description: La newsletter francophone du Libra, 1 fois/semaine
 cover: https://image.noelshack.com/fichiers/2019/32/2/1565107129-fond3.png
 logo:
-favicon: https://image.noelshack.com/fichiers/2019/31/4/1564664214-favicon.png
+favicon: favicon.ico
 baseurl: # the subpath of your site, e.g. /blog/ or / for root
-url: "https://polar-caverns-52525.herokuapp.com/" # the base hostname & protocol for your site
+url: "http://localhost:4000/" # the base hostname & protocol for your site
 
 pagination:
 
@@ -24,8 +24,7 @@ github:  github
 
 #Additional Pages
 about: about
-contact: contact
-privacy-policy: privacy-policy
+contact: Nous contacter
 
 
 permalink: /:title
@@ -52,7 +51,7 @@ repo: libdol #github repository
 branch: master #branch
 relative_source: ../hanuman/ #source directory
 destination: ../hanuman-pages/ #destination directory
-production_url:  https://polar-caverns-52525.herokuapp.com/
+production_url:
 source_url:  https://github.com/samanyougarg/hanuman #source repository url
 
 exclude:

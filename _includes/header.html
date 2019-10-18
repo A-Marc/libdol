@@ -15,22 +15,14 @@
   </div>
   <nav class="ampstart-sidebar-nav ampstart-nav">
     <ul class="list-reset m0 p0 ampstart-label">
-        {% for entry in site.data.navigation %}
-            {% if entry.url == current_page %}
-                {% assign current = 'current' %}
-            {% else %}
-                {% assign current = null %}
-            {% endif %}
-      <li class="ampstart-nav-item ampstart-nav-dropdown relative {{ current }}">
-          <li class="ampstart-faq-item"><a href="{{ site.url }}{{ site.baseurl }}{{ entry.url }}" class="text-decoration-none">{{ entry.title }}</a></li>
-      </li>
-      {% endfor %}
-    </ul>
-  </nav>
 
-  <ul class="ampstart-sidebar-faq list-reset m0">
-  {% if site.contact %}
-    <li class="ampstart-faq-item"><a href="{{ site.baseurl }}{{ site.contact }}" class="text-decoration-none">Contact</a></li>
-  {% endif %}
-  </ul>
+      <li class="ampstart-nav-item ampstart-nav-dropdown">
+          <li class="ampstart-faq-item"><a href="{{site.url}}" class="text-decoration-none">Accueil</a></li>
+          <li class="ampstart-faq-item"><a href="https://libdol.com/about" class="text-decoration-none">Plus d'informations</a></li>
+          <li class="ampstart-faq-item"><a href="mailto:mail.marc.arnal@gmail.com" class="text-decoration-none">Nous contacter</a></li>
+      </li>
+
+    </ul>
+
+  </nav>
 </amp-sidebar>

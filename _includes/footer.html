@@ -1,17 +1,22 @@
 <footer class="ampstart-footer flex flex-column items-center px3">
     <nav class="ampstart-footer-nav">
         <ul class="list-reset flex flex-wrap mb3">
+
+          <li class="px1">
+              <a class="text-decoration-none ampstart-label" href="{{site.url}}">Accueil</a>
+          </li>
+
             {% if site.about %}
 
             <li class="px1">
-                <a class="text-decoration-none ampstart-label" href="{{site.baseurl}}{{site.about}}">About</a>
+                <a class="text-decoration-none ampstart-label" href="https://libdol.com/about">Plus d'informations</a>
             </li>
             {% endif %} {% if site.contact %}
 
             <li class="px1">
-                <a class="text-decoration-none ampstart-label" href="{{site.baseurl}}{{site.contact}}">Contact</a>
+                <a class="text-decoration-none ampstart-label" href="mailto:mail.marc.arnal@gmail.com">Nous contacter</a>
             </li>
-            {% endif %} 
+            {% endif %}
         </ul>
     </nav>
 </footer>
